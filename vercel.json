@@ -1,5 +1,12 @@
 {
+  "version": 2,
+  "builds": [
+    {
+      "src": "Dockerfile",
+      "use": "@vercel/docker"
+    }
+  ],
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   }
 }
